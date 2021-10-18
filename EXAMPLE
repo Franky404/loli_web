@@ -1,0 +1,3 @@
+const maxlomli = 145;
+const randomlomli = Math.floor(Math.random() * maxlomli);
+var twinurl = "https://loli.frangky.me/" + randomlomli + ".jpg"
