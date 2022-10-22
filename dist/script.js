@@ -1,3 +1,10 @@
+// =========================
+// SSSSS
+// =========================
+const maxlomli = 145;
+const randomlomli = Math.floor(Math.random() * maxlomli);
+var urllomli = "https://media.publit.io/file/Twintails/" + randomlomli + ".jpg"
+
 const slideData = [
 {
   index: 0,
@@ -24,12 +31,7 @@ const slideData = [
   src: urllomli }];
 
 
-// =========================
-// SSSSS
-// =========================
-const maxlomli = 145;
-const randomlomli = Math.floor(Math.random() * maxlomli);
-var urllomli = "https://media.publit.io/file/Twintails/" + randomlomli + ".jpg"
+
 // =========================
 // Slide
 // =========================
