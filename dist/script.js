@@ -3,10 +3,13 @@
 // =========================
 const maxlomli = 145;
 const randomlomli = Math.floor(Math.random() * maxlomli);
+const randomlomli2 = Math.floor(Math.random() * maxlomli);
+const randomlomli3= Math.floor(Math.random() * maxlomli);
+const randomlomli4 = Math.floor(Math.random() * maxlomli);
 var urllomli = "https://media.publit.io/file/Twintails/" + randomlomli + ".jpg"
-var urllomli2 = "https://media.publit.io/file/Twintails/" + randomlomli + ".jpg"
-var urllomli3 = "https://media.publit.io/file/Twintails/" + randomlomli + ".jpg"
-var urllomli4 = "https://media.publit.io/file/Twintails/" + randomlomli + ".jpg"
+var urllomli2 = "https://media.publit.io/file/Twintails/" + randomlomli2 + ".jpg"
+var urllomli3 = "https://media.publit.io/file/Twintails/" + randomlomli3 + ".jpg"
+var urllomli4 = "https://media.publit.io/file/Twintails/" + randomlomli4 + ".jpg"
 
 const slideData = [
 {
