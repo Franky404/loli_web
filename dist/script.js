@@ -67,7 +67,7 @@ class Slide extends React.Component {
   }
 
   render() {
-    const { src, button, headline, index } = this.props.slide;
+    const { src, headline, index } = this.props.slide;
     const current = this.props.current;
     let classNames = 'slide';
 
@@ -94,7 +94,7 @@ class Slide extends React.Component {
 
       React.createElement("article", { className: "slide__content" }, /*#__PURE__*/
       React.createElement("h2", { className: "slide__headline" }, headline), /*#__PURE__*/
-      React.createElement("button", { className: "slide__action btn" }, button))));
+     // React.createElement("button", { className: "slide__action btn" }, button))));
 
 
 
@@ -108,9 +108,9 @@ class Slide extends React.Component {
 
 const SliderControl = ({ type, title, handleClick }) => {
   return /*#__PURE__*/(
-    React.createElement("button", { className: `btn btn--${type}`, title: title, onClick: handleClick }, /*#__PURE__*/
+   // React.createElement("button", { className: `btn btn--${type}`, title: title, onClick: handleClick }, /*#__PURE__*/
     React.createElement("svg", { className: "icon", viewBox: "0 0 24 24" }, /*#__PURE__*/
-    React.createElement("path", { d: "M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" }))));
+    React.createElement("path", { d: "M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" })));
 
 
 
