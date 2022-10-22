@@ -4,31 +4,26 @@
 const maxlomli = 145;
 const randomlomli = Math.floor(Math.random() * maxlomli);
 var urllomli = "https://media.publit.io/file/Twintails/" + randomlomli + ".jpg"
+var urllomli2 = "https://media.publit.io/file/Twintails/" + randomlomli + ".jpg"
+var urllomli3 = "https://media.publit.io/file/Twintails/" + randomlomli + ".jpg"
+var urllomli4 = "https://media.publit.io/file/Twintails/" + randomlomli + ".jpg"
 
 const slideData = [
 {
   index: 0,
-  headline: 'New Fashion Apparel',
-  button: 'Shop now',
   src: urllomli },
 
 {
   index: 1,
-  headline: 'In The Wilderness',
-  button: 'Book travel',
-  src: urllomli },
+  src: urllomli2 },
 
 {
   index: 2,
-  headline: 'For Your Current Mood',
-  button: 'Listen',
-  src: urllomli },
+  src: urllomli3 },
 
 {
   index: 3,
-  headline: 'Focus On The Writing',
-  button: 'Get Focused',
-  src: urllomli }];
+  src: urllomli4 }];
 
 
 
