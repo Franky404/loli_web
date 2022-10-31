@@ -1,2 +1,2 @@
-# loli
+# Gaada Loli
 Database
